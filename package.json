@@ -2,7 +2,7 @@
   "name": "OmniClientJS",
   "version": "0.0.1",
   "description": "EcmaScript 2015 client for Omni Core JSON-RPC",
-  "main": "OmniClient.js",
+  "main": "lib/OmniClient.js",
   "dependencies": {
     "starwars": "^1.0.0",
     "bitcoin": "^3.0.1",
@@ -23,10 +23,12 @@
     "trade"
   ],
   "author": "Patrick Dugan",
-  "contributors": [{
-    "name": "Sean Gilligan",
-    "email": "sean@msgilligan.com"
-   }],
+  "contributors": [
+    {
+      "name": "Sean Gilligan",
+      "email": "sean@msgilligan.com"
+    }
+  ],
   "license": "ASL2",
   "bugs": {
     "url": "https://github.com/OmniLayer/OmniClientJS/issues"

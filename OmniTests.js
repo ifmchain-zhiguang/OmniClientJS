@@ -8,7 +8,7 @@ var configuration = JSON.parse(
 );
 
 // Save client in a variable, even though all calss are made through the Omni object
-var testClient = Omni.init(configuration.rpcuser, configuration.rpcpassword, null, true);
+var testClient = Omni.init(configuration.rpcuser, configuration.rpcpassword, configuration.host, configuration.port);
 
 var account
 

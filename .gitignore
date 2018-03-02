@@ -4,3 +4,8 @@ node_modules
 configuration.json
 build/
 
+.DS_Store
+.vscode
+
+package-lock.json
+
